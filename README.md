@@ -1,7 +1,11 @@
 # Sustainability_Hub
-digital strategy report of the Sustainability Hub in Freiburg.
+This repository contains the public version of the Strategy Report from the SustainabilityHub-Team.
+It is for hosting the report on GitHub Pages but it is also for providing the MkDocs file-structure before building the static webpage under [``serve``](serve/).
 
-Link: https://sungsy.github.io/Sustainability_Hub/
+[Open the Report](https://sungsy.github.io/Sustainability_Hub/)
 
-# Credit
-mkdocs material
+![Homepage](assets/images/Screenshot_landing_page.png)
+
+# Acknowledgement
+
+- https://squidfunk.github.io/mkdocs-material/

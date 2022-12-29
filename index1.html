@@ -12,12 +12,12 @@
       
       
       
-      <link rel="icon" href="assets/images/planet-earth.ico">
+      <link rel="icon" href="assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.9">
     
     
       
-        <title>Sustainability Hub | Solare Zukunft</title>
+        <title>QSROA - Quick Service Restaurant Order Assistant - Team B Documentation</title>
       
     
     
@@ -28,7 +28,7 @@
         
           
           
-          <meta name="theme-color" content="#4cae4f">
+          <meta name="theme-color" content="#009485">
         
       
     
@@ -57,7 +57,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="green" data-md-color-accent="light-green">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="cyan">
   
     
     <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
@@ -74,9 +74,9 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Sustainability Hub | Solare Zukunft" class="md-header__button md-logo" aria-label="Sustainability Hub | Solare Zukunft" data-md-component="logo">
+    <a href="." title="Quick Service Restaurant Order Assistant - Team B Documentation" class="md-header__button md-logo" aria-label="Quick Service Restaurant Order Assistant - Team B Documentation" data-md-component="logo">
       
-  <img src="assets/images/planet-earth.ico" alt="logo">
+  <img src="assets/images/favicon.ico" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -86,13 +86,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Sustainability Hub | Solare Zukunft
+            Quick Service Restaurant Order Assistant - Team B Documentation
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              QSROA
             
           </span>
         </div>
@@ -138,9 +138,9 @@
     <div class="md-container" data-md-component="container">
       
       
+
         
           
-
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
@@ -168,8 +168,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="01_Stakeholder_Overview/business_vision/" class="md-tabs__link">
-        Stakeholder Overview
+      <a href="01_business_plan/use_case/" class="md-tabs__link">
+        Use Case
       </a>
     </li>
   
@@ -184,8 +184,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="02_Market_Analysis/market_industry_overview/" class="md-tabs__link">
-        Market Analysis
+      <a href="02_data_generation/data_generation/" class="md-tabs__link">
+        Data Generation
       </a>
     </li>
   
@@ -200,8 +200,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="03_Marketing_Strategy/marketing/" class="md-tabs__link">
-        Marketing Strategy
+      <a href="03_model/model/" class="md-tabs__link">
+        Model
       </a>
     </li>
   
@@ -216,8 +216,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="04_Location_Strategy/activities/" class="md-tabs__link">
-        Location Strategy
+      <a href="04_backend_frontend/system_architecture/" class="md-tabs__link">
+        System Architecture
       </a>
     </li>
   
@@ -232,8 +232,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="05_Financial_Strategy/finance/" class="md-tabs__link">
-        Financial Strategy
+      <a href="05_deployment/deployment/" class="md-tabs__link">
+        Deployment
       </a>
     </li>
   
@@ -248,8 +248,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="06_Conclusion/conclusion/" class="md-tabs__link">
-        Conclusion
+      <a href="06_documentation/documentation/" class="md-tabs__link">
+        Appendix
       </a>
     </li>
   
@@ -273,7 +273,7 @@
 
     .tx-container {
         padding-top: .0rem;
-        background: linear-gradient(to bottom, var(--md-primary-fg-color), rgb(76,174,79) 99%,#fff 99%)
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), hsla(160deg,47%,55%,1) 99%,#fff 99%)
     }
 
     .tx-hero {
@@ -309,7 +309,7 @@
 
     .tx-hero .md-button--primary {
         background-color: var(--md-primary-bg-color);
-        color: rgb(76,174,79);
+        color: rgb(0,150,130);
         border-color: var(--md-primary-bg-color)
     }
 
@@ -481,61 +481,69 @@
 
 <!-- Main site Entry button descriptions -->
 <section class="tx-container">
-  <div class="md-grid md-typeset">
-    <div class="tx-hero">
-      <div class="tx-hero__image">
-          <img></img>
-      </div>
-      <div class="tx-hero__content">
-        <h1> Sustainability Hub </h1>
-        <p>The <b>Sustainability Hub</b> is a concept of a place in Freiburg Germany where people can
-        learn about sustainability.</p>
-        <a href="{{ page.next_page.url | url }}" title="Strategy Report" class="md-button md-button--primary">
-          Read our Strategy Report
-        </a>
+    <div class="md-grid md-typeset">
+      <div class="tx-hero">
+        <div class="tx-hero__image">
+          <video src="assets/video/demovideo.mp4" width=650px autoplay muted loop>
+        </div>
+        <div class="tx-hero__content">
+          <h1> QSROA </h1>
+          <p>The <b>Quick service restaurant order assistant</b> is a easy-to-implement, additional verification instance for quick-service restaurants 
+            capable of significantly reducing costs caused by human failure in the processing of orders.</p>
+          <a href="01_business_plan/use_case/" title="QSROA documentation" class="md-button md-button--primary">
+            Read documentation
+          </a>
+          <a href="https://git.scc.kit.edu/upsla/case_study_ai_in_cv" title="GitLab repository" class="md-button">
+            Go to GitLab
+          </a>
+          <a href="https://drive.google.com/drive/folders/1-4YI4W4lNpt6xGK7hIncIILGC2nJfgc1?usp=sharing" title="Google-Drive with dataset" class="md-button">
+            View Google-Drive
+          </a>
+          <a href="https://1drv.ms/u/s!AldYt_yqKFY95NhXfjx_az67y1CpOQ?e=KRxL08" title="One Drive" class="md-button md-button--primary">
+            View OneDrive
+          </a>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 
 <!-- Main site box descriptions -->
 <div class="top-hr">
-  <div class="feature-item">
-      <h2>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path
-                  d="M16 17v2H2v-2s0-4 7-4 7 4 7 4m-3.5-9.5A3.5 3.5 0 109 11a3.5 3.5 0 003.5-3.5m3.44 5.5A5.32 5.32 0 0118 17v2h4v-2s0-3.63-6.06-4M15 4a3.39 3.39 0 00-1.93.59 5 5 0 010 5.82A3.39 3.39 0 0015 11a3.5 3.5 0 000-7z" />
-            </svg>
-          Contributors
-      </h2>
-      <p>Anne, Belinda <br>Nazar, Ilias, <br>Magnus</p>
-  </div>
-  <div class="feature-item">
-      <h2>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path
-              d="M15 17v-3h3v-2l4 3.5-4 3.5v-2h-3m2 1v3h-3v2l-4-3.5 4-3.5v2h3M12 8c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2m9.66-5.27l-2-3.46c-.12-.22-.38-.31-.61-.22l-2.49 1c-.51-.41-1.06-.74-1.69-1l-.37-2.63A.506.506 0 0014 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.26-1.17.59-1.69 1L5 5.05c-.23-.09-.5 0-.61.22l-2 3.46c-.13.21-.08.49.11.64L4.57 11l-.07 1 .07 1-2.11 1.63c-.2.15-.25.43-.12.64l2 3.46c.11.27.4.38.66.27l2.5-1c.24.19.5.37.76.53l1.65-1.4c-.77-.33-1.45-.82-2-1.45l-2.41 1-.77-1.3L6.8 13.8a5.55 5.55 0 010-3.6L4.69 8.65l.75-1.3 2.41 1c.78-.9 1.83-1.53 3-1.78l.4-2.57h1.5l.37 2.62c1.17.24 2.22.88 3 1.77l2.41-1 .75 1.3-2.08 1.51c.09.26.16.53.2.8h2l2.1-1.63a.48.48 0 00.16-.64M12 8c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2m0-6c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2z" />            
-          </svg>Place to work on sustainability
-      </h2>
-      <p>Great place to learn about sustainability.</p>
-  </div>
-  <div class="feature-item">
-      <h2>
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M20.4 14.5L16 10 4 20"/></svg>
-          Memories
-      </h2>
-      <p>While learning about sustainability you will also generate memories.</p>
-  </div>
+    <div class="feature-item">
+        <h2>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                    d="M16 17v2H2v-2s0-4 7-4 7 4 7 4m-3.5-9.5A3.5 3.5 0 109 11a3.5 3.5 0 003.5-3.5m3.44 5.5A5.32 5.32 0 0118 17v2h4v-2s0-3.63-6.06-4M15 4a3.39 3.39 0 00-1.93.59 5 5 0 010 5.82A3.39 3.39 0 0015 11a3.5 3.5 0 000-7z" />
+              </svg>
+            Contributors
+        </h2>
+        <p>Felix Schreyer, Joshua Holstein, <br>Leon Jungemeyer, Julian Ruck, <br>Christian Zielke, Magnus Landwehr</p>
+    </div>
+    <div class="feature-item">
+        <h2>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                d="M15 17v-3h3v-2l4 3.5-4 3.5v-2h-3m2 1v3h-3v2l-4-3.5 4-3.5v2h3M12 8c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2m9.66-5.27l-2-3.46c-.12-.22-.38-.31-.61-.22l-2.49 1c-.51-.41-1.06-.74-1.69-1l-.37-2.63A.506.506 0 0014 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.26-1.17.59-1.69 1L5 5.05c-.23-.09-.5 0-.61.22l-2 3.46c-.13.21-.08.49.11.64L4.57 11l-.07 1 .07 1-2.11 1.63c-.2.15-.25.43-.12.64l2 3.46c.11.27.4.38.66.27l2.5-1c.24.19.5.37.76.53l1.65-1.4c-.77-.33-1.45-.82-2-1.45l-2.41 1-.77-1.3L6.8 13.8a5.55 5.55 0 010-3.6L4.69 8.65l.75-1.3 2.41 1c.78-.9 1.83-1.53 3-1.78l.4-2.57h1.5l.37 2.62c1.17.24 2.22.88 3 1.77l2.41-1 .75 1.3-2.08 1.51c.09.26.16.53.2.8h2l2.1-1.63a.48.48 0 00.16-.64M12 8c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2m0-6c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2z" />            </svg>Lightweight system
+        </h2>
+        <p>Lightweight menu detection system using YOLO for object detection, running on a Jetson Nano.</p>
+    </div>
+    <div class="feature-item">
+        <h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M20.4 14.5L16 10 4 20"/></svg>
+            Visualizations
+        </h2>
+        <p>Easy understandable interactive dashboard for employees to check order completness.</p>
+    </div>
 </div>
 
 <div class="top-hr">
-  <div class="hr">
-  </div>
+    <div class="hr">
+    </div>
 </div>
 
 
 
-<main class="md-main" data-md-component="main">
+      <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
           
             
@@ -550,12 +558,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Sustainability Hub | Solare Zukunft" class="md-nav__button md-logo" aria-label="Sustainability Hub | Solare Zukunft" data-md-component="logo">
+    <a href="." title="Quick Service Restaurant Order Assistant - Team B Documentation" class="md-nav__button md-logo" aria-label="Quick Service Restaurant Order Assistant - Team B Documentation" data-md-component="logo">
       
-  <img src="assets/images/planet-earth.ico" alt="logo">
+  <img src="assets/images/favicon.ico" alt="logo">
 
     </a>
-    Sustainability Hub | Solare Zukunft
+    Quick Service Restaurant Order Assistant - Team B Documentation
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -597,13 +605,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       <label class="md-nav__link" for="__nav_2">
-        Stakeholder Overview
+        Use Case
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Stakeholder Overview" data-md-level="1">
+      <nav class="md-nav" aria-label="Use Case" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Stakeholder Overview
+          Use Case
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -612,8 +620,8 @@
   
   
     <li class="md-nav__item">
-      <a href="01_Stakeholder_Overview/business_vision/" class="md-nav__link">
-        Organization Overview
+      <a href="01_business_plan/use_case/" class="md-nav__link">
+        Business Plan
       </a>
     </li>
   
@@ -624,44 +632,8 @@
   
   
     <li class="md-nav__item">
-      <a href="01_Stakeholder_Overview/legal_structure/" class="md-nav__link">
-        Legal Structure
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="01_Stakeholder_Overview/organization_vision/" class="md-nav__link">
-        Organization Vision
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="01_Stakeholder_Overview/unesco/" class="md-nav__link">
-        UNESCO principles
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="01_Stakeholder_Overview/hub/" class="md-nav__link">
-        Sustainability Hub
+      <a href="01_business_plan/demo_video/" class="md-nav__link">
+        QSROA - Demo Video
       </a>
     </li>
   
@@ -687,13 +659,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       <label class="md-nav__link" for="__nav_3">
-        Market Analysis
+        Data Generation
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Market Analysis" data-md-level="1">
+      <nav class="md-nav" aria-label="Data Generation" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Market Analysis
+          Data Generation
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -702,32 +674,8 @@
   
   
     <li class="md-nav__item">
-      <a href="02_Market_Analysis/market_industry_overview/" class="md-nav__link">
-        Market & Industry Overview
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="02_Market_Analysis/market_positioning/" class="md-nav__link">
-        Target Market & Positioning
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="02_Market_Analysis/cooperations/" class="md-nav__link">
-        Cooperations
+      <a href="02_data_generation/data_generation/" class="md-nav__link">
+        Dataset
       </a>
     </li>
   
@@ -753,13 +701,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       <label class="md-nav__link" for="__nav_4">
-        Marketing Strategy
+        Model
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Marketing Strategy" data-md-level="1">
+      <nav class="md-nav" aria-label="Model" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
-          Marketing Strategy
+          Model
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -768,8 +716,8 @@
   
   
     <li class="md-nav__item">
-      <a href="03_Marketing_Strategy/marketing/" class="md-nav__link">
-        Marketing Strategy
+      <a href="03_model/model/" class="md-nav__link">
+        Model
       </a>
     </li>
   
@@ -795,13 +743,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
       <label class="md-nav__link" for="__nav_5">
-        Location Strategy
+        System Architecture
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Location Strategy" data-md-level="1">
+      <nav class="md-nav" aria-label="System Architecture" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          Location Strategy
+          System Architecture
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -810,32 +758,8 @@
   
   
     <li class="md-nav__item">
-      <a href="04_Location_Strategy/activities/" class="md-nav__link">
-        Activities
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="04_Location_Strategy/estate/" class="md-nav__link">
-        Estate Strategy
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="04_Location_Strategy/garden/" class="md-nav__link">
-        Sustainable Gardening
+      <a href="04_backend_frontend/system_architecture/" class="md-nav__link">
+        System Architecture
       </a>
     </li>
   
@@ -861,13 +785,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       <label class="md-nav__link" for="__nav_6">
-        Financial Strategy
+        Deployment
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Financial Strategy" data-md-level="1">
+      <nav class="md-nav" aria-label="Deployment" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          Financial Strategy
+          Deployment
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -876,8 +800,8 @@
   
   
     <li class="md-nav__item">
-      <a href="05_Financial_Strategy/finance/" class="md-nav__link">
-        Financial Strategy
+      <a href="05_deployment/deployment/" class="md-nav__link">
+        Deployment
       </a>
     </li>
   
@@ -903,13 +827,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
       <label class="md-nav__link" for="__nav_7">
-        Conclusion
+        Appendix
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Conclusion" data-md-level="1">
+      <nav class="md-nav" aria-label="Appendix" data-md-level="1">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
-          Conclusion
+          Appendix
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -918,8 +842,20 @@
   
   
     <li class="md-nav__item">
-      <a href="06_Conclusion/conclusion/" class="md-nav__link">
-        Conclusion
+      <a href="06_documentation/documentation/" class="md-nav__link">
+        Setup Documentation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="06_documentation/table_of_contributors/" class="md-nav__link">
+        Table of Contributors
       </a>
     </li>
   
@@ -941,7 +877,7 @@
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
-                      
+              
               
                 
 

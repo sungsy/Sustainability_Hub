@@ -16,7 +16,7 @@
 
     .tx-container {
         padding-top: .0rem;
-        background: linear-gradient(to bottom, var(--md-primary-fg-color), rgb(76,174,79) 99%,#fff 99%)
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), hsla(160deg,47%,55%,1) 99%,#fff 99%)
     }
 
     .tx-hero {
@@ -52,7 +52,7 @@
 
     .tx-hero .md-button--primary {
         background-color: var(--md-primary-bg-color);
-        color: rgb(76,174,79);
+        color: rgb(0,150,130);
         border-color: var(--md-primary-bg-color)
     }
 
@@ -227,14 +227,23 @@
     <div class="md-grid md-typeset">
       <div class="tx-hero">
         <div class="tx-hero__image">
-            <img></img>
+          <video src="assets/video/demovideo.mp4" width=650px autoplay muted loop>
         </div>
         <div class="tx-hero__content">
-          <h1> Sustainability Hub </h1>
-          <p>The <b>Sustainability Hub</b> is a concept of a place in Freiburg Germany where people can
-          learn about sustainability.</p>
-          <a href="{{ page.next_page.url | url }}" title="Strategy Report" class="md-button md-button--primary">
-            Read our Strategy Report
+          <h1> QSROA </h1>
+          <p>The <b>Quick service restaurant order assistant</b> is a easy-to-implement, additional verification instance for quick-service restaurants 
+            capable of significantly reducing costs caused by human failure in the processing of orders.</p>
+          <a href="{{ page.next_page.url | url }}" title="QSROA documentation" class="md-button md-button--primary">
+            Read documentation
+          </a>
+          <a href="https://git.scc.kit.edu/upsla/case_study_ai_in_cv" title="GitLab repository" class="md-button">
+            Go to GitLab
+          </a>
+          <a href="https://drive.google.com/drive/folders/1-4YI4W4lNpt6xGK7hIncIILGC2nJfgc1?usp=sharing" title="Google-Drive with dataset" class="md-button">
+            View Google-Drive
+          </a>
+          <a href="https://1drv.ms/u/s!AldYt_yqKFY95NhXfjx_az67y1CpOQ?e=KRxL08" title="One Drive" class="md-button md-button--primary">
+            View OneDrive
           </a>
         </div>
       </div>
@@ -251,23 +260,22 @@
               </svg>
             Contributors
         </h2>
-        <p>Anne, Belinda <br>Nazar, Ilias, <br>Magnus</p>
+        <p>Felix Schreyer, Joshua Holstein, <br>Leon Jungemeyer, Julian Ruck, <br>Christian Zielke, Magnus Landwehr</p>
     </div>
     <div class="feature-item">
         <h2>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
-                d="M15 17v-3h3v-2l4 3.5-4 3.5v-2h-3m2 1v3h-3v2l-4-3.5 4-3.5v2h3M12 8c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2m9.66-5.27l-2-3.46c-.12-.22-.38-.31-.61-.22l-2.49 1c-.51-.41-1.06-.74-1.69-1l-.37-2.63A.506.506 0 0014 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.26-1.17.59-1.69 1L5 5.05c-.23-.09-.5 0-.61.22l-2 3.46c-.13.21-.08.49.11.64L4.57 11l-.07 1 .07 1-2.11 1.63c-.2.15-.25.43-.12.64l2 3.46c.11.27.4.38.66.27l2.5-1c.24.19.5.37.76.53l1.65-1.4c-.77-.33-1.45-.82-2-1.45l-2.41 1-.77-1.3L6.8 13.8a5.55 5.55 0 010-3.6L4.69 8.65l.75-1.3 2.41 1c.78-.9 1.83-1.53 3-1.78l.4-2.57h1.5l.37 2.62c1.17.24 2.22.88 3 1.77l2.41-1 .75 1.3-2.08 1.51c.09.26.16.53.2.8h2l2.1-1.63a.48.48 0 00.16-.64M12 8c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2m0-6c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2z" />            
-            </svg>Place to work on sustainability
+                d="M15 17v-3h3v-2l4 3.5-4 3.5v-2h-3m2 1v3h-3v2l-4-3.5 4-3.5v2h3M12 8c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2m9.66-5.27l-2-3.46c-.12-.22-.38-.31-.61-.22l-2.49 1c-.51-.41-1.06-.74-1.69-1l-.37-2.63A.506.506 0 0014 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.26-1.17.59-1.69 1L5 5.05c-.23-.09-.5 0-.61.22l-2 3.46c-.13.21-.08.49.11.64L4.57 11l-.07 1 .07 1-2.11 1.63c-.2.15-.25.43-.12.64l2 3.46c.11.27.4.38.66.27l2.5-1c.24.19.5.37.76.53l1.65-1.4c-.77-.33-1.45-.82-2-1.45l-2.41 1-.77-1.3L6.8 13.8a5.55 5.55 0 010-3.6L4.69 8.65l.75-1.3 2.41 1c.78-.9 1.83-1.53 3-1.78l.4-2.57h1.5l.37 2.62c1.17.24 2.22.88 3 1.77l2.41-1 .75 1.3-2.08 1.51c.09.26.16.53.2.8h2l2.1-1.63a.48.48 0 00.16-.64M12 8c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2m0-6c-2.21 0-4 1.8-4 4 0 1.91 1.35 3.54 3.21 3.92L16 11.86A3.997 3.997 0 0012 8m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2z" />            </svg>Lightweight system
         </h2>
-        <p>Great place to learn about sustainability.</p>
+        <p>Lightweight menu detection system using YOLO for object detection, running on a Jetson Nano.</p>
     </div>
     <div class="feature-item">
         <h2>
             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M20.4 14.5L16 10 4 20"/></svg>
-            Memories
+            Visualizations
         </h2>
-        <p>While learning about sustainability you will also generate memories.</p>
+        <p>Easy understandable interactive dashboard for employees to check order completness.</p>
     </div>
 </div>
 
